@@ -22,4 +22,4 @@ RUN cpanm -f Bio::Roary
 VOLUME ["/input", "/output", "/databases", "/share"]
 WORKDIR /
 
-ENTRYPOINT ["/bin/bash"]
+CMD ["/bin/bash"]
